@@ -1,0 +1,33 @@
+html {
+    background-image: url("block20-background.jpeg");
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    min-height: 96vh;
+    border: 2vh inset black;
+}
+
+#root {
+    text-align: center;
+}
+
+#theList {
+    display: inline-block;
+    color: aliceblue;
+    text-align: left;
+    
+}
+
+#pageTitle {
+    display: flex;
+    color: aliceblue;
+    font-family: cursive;
+    margin-left: 5vw;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+ul li:hover {
+    /* fallback in case we need to support older or non-supportive browsers (IE, Opera mini) */
+    color: #ff0000;
+    color: var(--td-background-color);
+  }
